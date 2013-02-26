@@ -1,0 +1,13 @@
+/* 
+    Document   : forms
+    Created on : 21 Ιαν 2013, 5:09:56 μμ
+    Author     : Panos
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.frm-editlost div {
+    position:relative;
+    float:left;
+    margin:10px 0px 10px 0px;
+}

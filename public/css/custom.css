@@ -1,0 +1,71 @@
+/*
+Author: gioarvan@gmail.com
+URL: http://designtunes.gr
+*/	
+
+.red {color:red}
+/* Footer css */
+#footer {
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#5BB75B), to(#5CC75B));
+    background: -moz-linear-gradient(top,  #5BB75B,  #5CC75B);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5BB75B', endColorstr='#5CC75B');*/
+}
+#footer ul { margin:0; padding:0;
+             color:#000; /* Base text color for the menu */
+}
+#footer ul li { float:left; list-style:none;/* Makes the list items go horizontally in lieu of default vertical display */ }
+#footer ul li:after {
+    content:"|"; /* Or go Facebook style and use "·" (the interpunct character) for separators */
+    color:#666; /* You may want to make the separators a bit more subtle than the base text color */
+}
+#footer ul li:last-child:after { content:""; /* No separator for the last item in the list */ }
+#footer ul li a {
+    /*padding:5px;*/
+    /*background-color:#e6e6e6;*/
+    font-size: 12px;
+    margin:0 8px; /* Set margins around the links */
+    color:#3A87AD; /* Text colors for the links */
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+#footer ul li a:hover{
+    color:#09F;
+    /*background-color: #ccc;*/ 
+    text-decoration: none;
+}
+
+.contact ul{
+    margin:0; padding:0;
+}
+
+.contact ul li {
+    float:left; list-style:none;position: relative;margin-right: 15px;
+}
+
+/*** Heights ***/
+
+.h10{height:10px !important}
+.h20{height:20px !important}
+.h30{height:30px !important}
+.h40{height:40px !important}
+.h50{height:50px !important}
+.h60{height:60px !important}
+.h70{height:70px !important}
+.h80{height:80px !important}
+.h90{height:90px !important}
+.h100{height:100px !important}
+
+.myfixed{
+    position: fixed;
+    top:0;
+    width:300px;
+    height:20px;
+    left:30%;
+}
+.lower{text-transform: lowercase;}
+.tooltip {text-shadow: none !important}
+.text-center{text-align: center !important;}
+.spacer20 {
+    margin-top: 20px; /* define margin as you see fit */
+}
